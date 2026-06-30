@@ -3,10 +3,20 @@
   "version": "0.1.0",
   "description": "Realtime ingestion service for the Ocean Glider Data Pipeline (OGDP)",
   "private": true,
-  "main": "src/ingestion/sfmcSyncListener.js",
+  "main": "src/index.js",
   "scripts": {
-    "start": "node src/ingestion/sfmcSyncListener.js"
+    "start": "node src/index.js",
+    "test": "echo \"No tests yet\""
   },
+  "engines": {
+    "node": ">=20"
+  },
+  "keywords": [
+	"glider",
+	"slocum",
+	"sfmc",
+	"oceanography"
+	],
   "author": "Fiona Elliott",
   "license": "MIT",
   "repository": {
@@ -16,5 +26,8 @@
   "bugs": {
     "url": "https://github.com/elyfant/ogdp/issues"
   },
-  "homepage": "https://github.com/elyfant/ogdp#readme"
+  "homepage": "https://github.com/elyfant/ogdp#readme",
+  "dependencies": {
+    "sfmc": "file:~/projects/SFMC/exploration/vendor/toolbox/opt/sfmc-toolbox/sfmc-nodejs-rest-lib/sfmc.tgz"
+  }
 }
