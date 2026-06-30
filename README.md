@@ -152,6 +152,17 @@ Mission data, raw archives, and generated products are intentionally stored outs
 * Realtime ingestion
 * rsync orchestration
 
+## Prerequisites
+
+The OGDP ingestion service depends on the Teledyne SFMC Node.js SDK.
+
+This SDK is **not distributed with OGDP** and must be obtained separately as part of the Teledyne SFMC installation.
+
+Once installed, update `js/package.json` (or your local configuration) to point to the location of `sfmc.tgz`.
+
+See `docs/user-guide/sfmc-installation.md` for details.
+
+
 ### Python
 
 * Processing pipeline
