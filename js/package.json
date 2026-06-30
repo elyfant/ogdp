@@ -1,0 +1,20 @@
+{
+  "name": "ogdp-ingestion",
+  "version": "0.1.0",
+  "description": "Realtime ingestion service for the Ocean Glider Data Pipeline (OGDP)",
+  "private": true,
+  "main": "src/ingestion/sfmcSyncListener.js",
+  "scripts": {
+    "start": "node src/ingestion/sfmcSyncListener.js"
+  },
+  "author": "Fiona Elliott",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/elyfant/ogdp.git"
+  },
+  "bugs": {
+    "url": "https://github.com/elyfant/ogdp/issues"
+  },
+  "homepage": "https://github.com/elyfant/ogdp#readme"
+}
