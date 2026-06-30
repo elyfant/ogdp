@@ -1,0 +1,13 @@
+{
+  "sfmc": {
+    "gliders": []
+  },
+  "rsync": {
+    "remoteUser": "",
+    "remoteHost": "",
+    "remoteBasePath": "",
+    "localBasePath": ""
+  },
+  "database": {},
+  "logging": {}
+}

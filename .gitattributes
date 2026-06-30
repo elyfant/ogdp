@@ -1,0 +1,15 @@
+# Automatically normalize text files
+* text=auto
+
+# Python
+*.py text eol=lf
+
+# JavaScript
+*.js text eol=lf
+*.json text eol=lf
+
+# Markdown
+*.md text eol=lf
+
+# Shell
+*.sh text eol=lf
